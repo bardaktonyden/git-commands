@@ -34,6 +34,14 @@
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
+### Inspection & Comparison
+
+| Command | Description |
+| ------- | ----------- |
+| `git log` | View changes |
+| `git log --summary` | View changes (detailed) |
+| `git diff [source branch] [target branch]` | Preview changes before merging |
+
 ### Sharing & Updating Projects
 
 | Command | Description |
