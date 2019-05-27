@@ -1,3 +1,13 @@
+### Basic Snapshotting
+
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -23,14 +33,6 @@
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
-
-### Inspection & Comparison
-
-| Command | Description |
-| ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Sharing & Updating Projects
 
